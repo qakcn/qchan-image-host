@@ -1,8 +1,5 @@
 <?php
 /* Management Functions */
-function is_login() {
-	return (isset($_COOKIE['login_name']) && $_COOKIE['login_name']==hash('sha256',MANAGE_NAME));
-}
 
 function check_login(&$error) {
 	if(!isset($_POST['login'])) {
@@ -23,7 +20,7 @@ function check_login(&$error) {
 }
 
 function set_login() {
-	setcookie('login_name', hash('sha256',MANAGE_NAME), time()+3000);
+	setcookie('login_name', hash('sha256',MANAGE_NAME), time()+3000, '/');
 }
 
 function list_dir(){
