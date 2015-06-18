@@ -145,7 +145,7 @@ switch($logerror) {
 
 <!-- Footer -->
 <footer id="main_footer">
-<p><?=__('This site is powered by <a target="_blank" href="http://github.com/qakcn/qchan">Qchan %s</a>', QCHAN_VER) ?>&nbsp;|&nbsp;<a href="javascript:document.cookie = 'login_name=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';location.reload();" id="logout"><?=__('Logout') ?></p>
+<p><?=__('This site is powered by <a target="_blank" href="http://github.com/qakcn/qchan">Qchan %s</a>', QCHAN_VER) ?>&nbsp;|&nbsp;<a href="javascript:document.cookie = 'login_name=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';document.cookie = 'PHPSESSID=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';location.reload();" id="logout"><?=__('Logout') ?></p>
 </footer>
 
 </body>
