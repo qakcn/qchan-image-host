@@ -39,3 +39,11 @@ define('COPYRIGHT', 'Every uploaded image must licensed under <a rel="license" h
 define('WATERMARK', false);
 define('WATERMARK_MIN_SIZE', '200x200'); // Only mark images those are larger than
 define('WATERMARK_POS', '10,10'); //Watermark position coordinates, positive refer to left-top of image, negative refer to right-bottom
+
+// Image-related
+define('OBFUSCATE_FILENAME', true); //Make you a random filename, like Imgur's
+define('OBFUSCATED_FILENAME_LENGTH', 7); //The one Imgur uses
+define('THUMB_SIZE', '200x200'); //The default one
+
+// Manager upload only
+define('MANAGER_UPLOAD_ONLY', false); // Only manager can upload pics

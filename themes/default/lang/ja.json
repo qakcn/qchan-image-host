@@ -180,5 +180,8 @@
 	"报告滥用",
 
 	"List%20image%20address%20here%20for%20report.":
-	"将涉及滥用的图片地址列在此处。"
+	"将涉及滥用的图片地址列在此处。",
+    
+	"Logout":
+	"LOGOUT"
 }

@@ -1,4 +1,7 @@
 <?php
+function is_login() {
+	return (isset($_COOKIE['login_name']) && $_COOKIE['login_name']==hash('sha256',MANAGE_NAME));
+}
 
 function return_404() {
 	header('HTTP/1.0 404 Not Found');

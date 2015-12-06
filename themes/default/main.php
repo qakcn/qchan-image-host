@@ -6,6 +6,8 @@ if(!defined('INDEX_RUN')) {
     exit('This file must be loaded in flow.');
 }
 
+// Manager only
+if (!is_login() && MANAGER_UPLOAD_ONLY) exit('error: 403 Access Denied');
 ?>
 
 <?php load_header(); ?>

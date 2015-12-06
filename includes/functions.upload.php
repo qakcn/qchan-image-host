@@ -1,5 +1,10 @@
 <?php
 
+// Generate a random string for image name
+function generateRandomString($length = 10) {
+    return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $length);
+}
+
 // Setup path for upload
 function setup_dir() {
 	$year=date('Y');$month=date('m');
@@ -184,7 +189,11 @@ function file_handler() {
 					}
 					
 					if(!isset($result['status']) || !$result['status'] == 'failed') {
-						$name = rename_if_exists($name, $uploads_dir);
+                        if(OBFUSCATE_FILENAME) {
+                            $name = rename_file($name, $uploads_dir);
+                        } else{
+                            $name = rename_if_exists($name, $uploads_dir);
+                        }
 						$path = "$uploads_dir/$name";
 						if(!move_uploaded_file($temp, ABSPATH.'/'.$path)) {
 							$result['status'] = 'failed';
@@ -303,8 +312,9 @@ function file_mime_type($file) {
 
 //Generate thumbnail image
 function make_thumb($name, $path, $thumbs_dir) {
-	$height = 200;
-	$width = 200;
+    list($min_width, $min_height) = explode('x', THUMB_SIZE);
+	$height = $min_height;
+	$width = $min_width;
 	$exlong = $extiny = false;
 	$return = array('generated'=>false);
 	if(file_mime_type(ABSPATH.'/'.$path) == 'image/svg+xml') {
@@ -322,10 +332,10 @@ function make_thumb($name, $path, $thumbs_dir) {
 		$ratio = $width/$height;
 		$exlong = ($ratio > 3 || $ratio < 0.33);
 		if($ratio < 0.33 || $ratio >= 1 && $ratio <= 3) {
-			$width = 200;
+			$width = $min_width;
 			$height = $width/$ratio;
 		}else if ($ratio >= 0.33 && $ratio < 1 || $ratio > 3) {
-			$height = 200;
+			$height = $min_height;
 			$width = $height*$ratio;
 		}
 		$return['width'] = $width;
