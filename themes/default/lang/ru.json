@@ -1,0 +1,184 @@
+{
+	"Qchan Image Hosting":
+	"Qchan Хостинг Изображений",
+
+	"Upload":
+	"Загрузить",
+
+	"Language":
+	"Язык",
+
+	"Select display language":
+	"Выбор языка",
+
+	"Upload files":
+	"Загрузка файлов",
+
+	"Drag and drop files here":
+	"Перетащите файлы сюда",
+
+	"Only works with IE 10+ and other mordern browser":
+	"Работвет только в IE 10+ и остальных современных браузерах",
+
+	"Normal":
+	"Обычная загрузка",
+
+	"URL":
+	"URL",
+
+	"Start Upload":
+	"Начать загрузку",
+
+	"Close":
+	"Закрыть",
+
+	"Select Files":
+	"Выбрать Файлы",
+
+	"Your browser doesn't support Drag and drop upload":
+	"Ваш браузер не поддерживает загрузку методом Drag and drop",
+
+	"Please put URLs here, one URL per line, with leading 'http://'":
+	"Пожалуйста вставьте сюда URL, по одному на строку, начинающиеся с 'http://'",
+	
+	" is not an acceptable URL.":
+	" URL не доступна.",
+
+	" cannot load preview now. Waiting server response.":
+	" невозможно загрузить превью. Ожидание ответа сервера",
+
+	" is unsupported file type.":
+	" не поддерживаемый тип файла.",
+
+	" reaches the size limitation.":
+	" привышено ограничение размера файла.",
+
+	" cannot be retrieved by server now. Check if URL is invalid.":
+	" сервер не может получить доступ. Проверьте URL.",
+
+	" cannot write to server disk.":
+	" невозможно записать на диск сервера.",
+
+	" cannot perform duplicate check.":
+	" невозможно выполнить проверку на дубликаты.",
+
+	" reaches size limit set in php.ini.":
+	" превышен максимальный размер файла, установленный в php.ini.",
+
+	" only part of were uploaded.":
+	" загружена только часть.",
+
+	" there is no temporary directory on server.":
+	" нет временной папки на сервере.",
+
+	" tried several times and all failed.":
+	" неудача после нескольких попыток.",
+
+	"File cannot be retrieved by server now. Perhaps remote server is unreachable, or file does not exist any more, or you just make a little mistake.":
+	"Невозможно получить файл. Вероятно удалённый сервер не доступен, или файл больше не существует, или вы ошиблись при вводе.",
+
+	"Reaches file size limitation.":
+	"Превышен максимальный размер файла.",
+
+	"The file preview cannot be loaded, Perhaps file is no more exist, or remote server is un reachable, or you just make a little mistake.":
+	"Невозможно загрузить превью. Вероятно удалённый сервер не доступен, или файл больше не существует, или вы ошиблись при вводе.",
+
+	"File cannot write to upload directory on server. Ask webmaster to check permissions.":
+	"Файл не может быть загружен в папку загрузок на сервере. Попросите системного администратора проверить разрешения.",
+
+	"File type not support now. Communicate with author for more help.":
+	"Тип файоа сейчас не поддерживается. Обратитесь к авторам за помощью.",
+
+	"Duplicate check is failed.":
+	"Не удалось сделать проверку на дубликаты.",
+
+	"Reaches file size limitation in php.ini.":
+	"Превышен размер файла описанный в php.ini.",
+
+	"Only parts of the file were uploaded. You can retry it.":
+	"Загружена только часть файла. Можете повторить загрузку.",
+
+	"Temporary directory on the server does not exist. Ask webmaster to check.":
+	"Временной папки не существует на сервере. Попросите администратора проверить.",
+
+	"Try to upload several times and all of those were failed.":
+	"Не удалось загрузить файл после нескольких попыток.",
+
+	"Preparing for uploading":
+	"Подготовка к загрузке",
+
+	"Waiting for uploading":
+	"Ожидание загрузки",
+
+	"Uploading":
+	"Загрузка",
+
+	"Uploaded successfully":
+	"Успешно загружено",
+
+	"Something wrong":
+	"Что то не так",
+
+	"Failed to upload":
+	"Ошибка загрузки",
+
+	"All selected files were uploaded successfully":
+	"Все выбранные файлы были успешно загружены",
+
+	"Not all selected files were uploaded successfully, only uploaded ones showed below":
+	"Не все файлы были успешно загружены, ниже показаны только успешно загруженные файлы",
+
+	"All selected files were failed to upload":
+	"Не удалось загрузить ни один из файлов",
+
+	" Files Selected":
+	" Вайлов Выбрано",
+
+	"Original File":
+	"Оригинал",
+
+	"HTML Code":
+	"HTML Код",
+
+	"HTML Code with thumbnail":
+	"HTML Code с превью",
+
+	"BBCode":
+	"BBCode",
+
+	"BBCode with thumbnail":
+	"BBCode с превью",
+
+	"Click to view large version":
+	"Нажмите чтобы увидеть полную версию.",
+
+	"This image is tiny and enlarged":
+	"Это изображение очень маленькое",
+
+	"This image is long and will be auto scrolled when mouse over":
+	"Это изображение длинное",
+
+	"This site is powered by <a target=\"_blank\" href=\"%s\">Qchan %s</a>":
+	"This site is powered by <a target=\"_blank\" href=\"%s\">Qchan %s</a>",
+
+	"Agreement":
+	"Соглашение",
+
+	"Help":
+	"Помощь",
+
+	"Privacy":
+	"Конфиденциальность",
+
+	"Report Abuse":
+	"Пожаловаться",
+
+	"Report abuse use such as piracy, pornography, extreme violence, religious discrimination and racism, etc.":
+	"Пожаловаться на пиратство, порнографию, черезвычайную жестокость, дискриминацию в религии, рассизм, и т.д.",
+
+	"Report%20Abuse%20Use":
+	"Пожаловаться",
+
+	"List%20image%20address%20here%20for%20report.":
+	"Список%20изображений%20для%20жалобы."
+}
